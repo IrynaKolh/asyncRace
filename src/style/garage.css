@@ -1,0 +1,83 @@
+.garage-race {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #27263d;
+  font-size: 3rem;
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  color: #3b3a3d;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.cars-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #7aa899;  
+}
+
+.car-item {
+  border-bottom: 2px black solid;
+  display: flex;
+  flex-direction: column;  
+}
+
+.controls-car {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;  
+  gap: 5px; 
+}
+
+.road {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.flag {
+  font-size: 5rem;
+  position: absolute;
+  top: -30px;
+  right: 100px;
+}
+
+.controls-car .button:hover:not([disabled]), 
+.controls-engine .button:hover:not([disabled]) {
+  background-color: #6e6c78;
+  color: black;
+}
+
+.car-img {
+  margin-left: 5px;
+}
+
+.car-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #27263d;
+  border: 1px solid #6e6c78;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: white;
+  
+}
+
+.message {
+  position: absolute;
+  height: 2rem;
+  top: 45%;
+  left: 50%;
+  color: #27263d;
+  font-size: 2rem;
+}
+

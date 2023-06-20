@@ -1,0 +1,35 @@
+footer {
+  padding: 10px 20px;
+  background: #3b3a3d;
+}
+
+ .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+ }
+
+.rs-link {
+  display: block;
+  width: 61px;
+  text-decoration: none;
+}
+
+.rss-img {
+  height: 30px;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.copy-link, .github-link {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+.copy-link:hover, .github-link:hover {
+  color: #7aa899;
+}

@@ -1,0 +1,87 @@
+main {
+  min-height: 85vh;
+  padding: 0 2rem;
+  background-color: lightgray;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.forms, .controls-btns {
+  padding-top: 5px;
+  width: 400px;
+  display: flex;  
+}
+
+.forms {
+  flex-direction: column;
+}
+
+.controls-btns {
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  background-color: #8b7aa8;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: 0.2s;
+  color: black;
+  height: 1.5rem;
+}
+
+.button:hover:not([disabled]) {
+  background-color: #6e6c78;
+  color: white;
+}
+
+.button:disabled {
+  background-color: black;
+  color: white;
+}
+
+.table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+thead{
+  background-color: #7aa899;
+  border-radius: 5px;
+}
+th{
+  padding: 10px 20px;
+}
+td{
+  padding: 3px 20px;
+}
+tbody{
+  border-collapse: collapse;
+}
+
+.pagination {
+  text-align: center;
+}
+.pagination button:hover:not([disabled]) {
+  background-color: #3b3a3d;
+  color: white;
+}
+.pagination button {
+  width: 150px;
+  margin: 5px;
+}
+
+.table-button {
+  border: #3b3a3d 1px solid;
+}
