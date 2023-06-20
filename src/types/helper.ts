@@ -1,4 +1,4 @@
-export const path = 'http://127.0.0.1:3000';
+export const path = 'https://asyncrace-0yap.onrender.com';
 
 export type DrivingStatus = {
   success: boolean;
